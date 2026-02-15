@@ -1,0 +1,17 @@
+#dataset
+Dataset/
+
+# YOLO outputs
+runs/
+
+# Model weights
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# please dont remove the above (using that to train image recognision model)
