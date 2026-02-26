@@ -2,7 +2,8 @@ from ultralytics import YOLO
 import cv2
 
 def main():
-    model = YOLO("../runs/detect/train6/weights/best.pt")
+    # Updated to use the best weights from our latest training rounds
+    model = YOLO("../runs/detect/runs/detect/taco_fold_0/weights/best.pt")
     cap = cv2.VideoCapture(0)
 
     while True:

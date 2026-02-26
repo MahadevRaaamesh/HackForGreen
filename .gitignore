@@ -1,5 +1,6 @@
-#dataset
-Dataset/
+# dataset
+data/
+TACO
 
 # YOLO outputs
 runs/
@@ -15,3 +16,7 @@ __pycache__/
 venv/
 
 # please dont remove the above (using that to train image recognision model)
+
+# Dependencies
+node_modules/
+.env
